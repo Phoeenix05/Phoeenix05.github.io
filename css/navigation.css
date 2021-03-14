@@ -1,0 +1,23 @@
+.navigation__bar {
+  box-sizing: border-box;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.navigation__bar h1 {
+  margin: 0.5rem 0;
+}
+.navigation__bar ul {
+  padding: 0;
+  list-style-type: none;
+}
+.navigation__bar ul a {
+  transition: all 200ms;
+  padding: 0 0.5rem;
+  color: #464646;
+}
+.navigation__bar ul a:hover {
+  color: #000;
+}
