@@ -1,13 +1,9 @@
 .navigation__bar {
   box-sizing: border-box;
-  padding: 0 1rem;
+  padding: 0 3rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 60px;
-}
-.navigation__bar h1 {
-  margin: 0.5rem 0;
 }
 .navigation__bar ul {
   padding: 0;

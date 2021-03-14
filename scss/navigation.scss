@@ -1,16 +1,8 @@
 @use 'abstracts/variables' as *;
-@use 'utilities/mixins' as *;
+@use 'components/navigation' as *;
 
 .navigation {  
   &__bar {
-    @include container-row;
-    height: 60px;
-
-    h1 {margin: .5rem 0;}
-    ul {@include links-horizontal;}
+    @include navbar-style-1;
   }
-
-  // &__active {
-
-  // }
 }
