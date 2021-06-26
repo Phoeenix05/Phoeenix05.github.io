@@ -1,0 +1,56 @@
+:root {
+  --content-max-width: 900px
+}
+
+
+html, body {
+  height: fit-content;
+  min-height: 100vh;
+}
+
+
+* {
+  /* Weights are 200, 300, 400, 600, 700, 800, 900 */
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+
+  margin: 0;
+}
+
+
+.content {
+  width: var(--content-max-width);
+  max-width: 100%;
+  
+  box-sizing: border-box;
+  margin: auto;
+  
+  height: fit-content;
+  min-height: calc(100vh - 76px);
+}
+
+
+header {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  
+  padding: 1rem;
+}
+
+header .header__content {
+  width: var(--content-max-width);
+}
+
+header .header__content .title h1 thin {
+  font-weight: 400;
+}
+
+
+footer {
+  width: 100vw;
+  height: fit-content;
+  min-height: 150px;
+  background-color: #1C2541;
+  border-radius: .75rem .75rem 0 0;
+}

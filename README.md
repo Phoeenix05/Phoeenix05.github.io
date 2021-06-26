@@ -1,3 +1,3 @@
 # Personal portfolio
 
-Personal portfolio created with HTML, sass and jQuery
+Personal portfolio created with HTML, css and jQuery
