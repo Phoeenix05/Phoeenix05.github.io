@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Meta tags -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- Title -->
-    <title>Portfolio</title>
-    
-    <!-- CDN -->
-    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="css/root.css">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/navigation.css">
 
-    <!-- Styles -->
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="styles/index-content.css">
-  </head>
-  <body>
-    
-    <header class="page__header hidden">
-      <div class="header__content">
-        <div class="logo title">
-          <h1>Pho3n1x<thin>05</thin></h1>
-        </div>
-      </div>
-    </header>
-
-    <div class="content">
-      
+  <title>AF Personal portfolio</title>
+</head>
+<body>
+  <!-- Nav / hamburger -->
+  <nav id="page__navigation">
+    <div id="hamburger__container" onclick="hamburgerOnClick()">
+      <span id="hamburger"></span>
     </div>
+    <div id="page__navigation__container">
+      <div id="hamburger__container" onclick="hamburgerOnClick()">
+        <span id="hamburger"></span>
+      </div>
+    </div>
+    <div id="page__navigation__container__back" onclick="hamburgerOnClick()"></div>
+  </nav>
 
-    <footer>
-      
-    </footer>
+  <!-- Page header -->
+  <header id="page__header"></header>
 
-  </body>
-  <!-- Scripts -->
-  <script src="index.js"></script>
+  <!-- Main content -->
+  <main id="main__content">
+    <!-- Main content container -->
+    <div class="container">
+      <div class="content">
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Page footer -->
+  <footer id="page__footer">
+    <div id="page__links"></div>
+    <div id="links"></div>
+    <div id="contact__info"></div>
+  </footer>
+</body>
+
+<script src="js/index.js"></script>
+<script src="js/navigation.js"></script>
 </html>

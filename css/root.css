@@ -1,0 +1,19 @@
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: rgb(32, 32, 32);
+    --secondary-bg-color: rgb(22, 22, 22);
+    --accent-color: rgb(130, 251, 181);
+    --secondary-color: rgb(86, 103, 117);
+    --cancel-color: rgb(228, 99, 94);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff;
+    --secondary-bg-color: #f0f0f0;
+    --accent-color: rgb(130, 251, 181);
+    --secondary-color: rgb(86, 103, 117);
+    --cancel-color: rgb(228, 99, 94);
+  }
+}

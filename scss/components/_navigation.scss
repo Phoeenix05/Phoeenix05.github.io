@@ -1,0 +1,8 @@
+
+@mixin hamburger_span {
+  content: '';
+  display: inherit;
+  position: relative;
+  background: inherit;
+  border-radius: inherit;
+}
